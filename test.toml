@@ -1,0 +1,12 @@
+[Service]
+  Port = "8001"
+  Environment = "development"
+  Build=""
+
+[Database]
+  name = "postgres"
+  host = "localhost"
+  port = "5432"
+  user = "postgres"
+  pass = "root"
+  ideal = "50"
